@@ -1,5 +1,7 @@
 # Blender-Combiner
 For combining materials in blender for Roughness, Occlusion, Metallic, Alpha
+![Image description](https://i.imgur.com/lXyT4sV.gif)
+
 
 To install please use Edit, Preferences then click the Install button in Blender. Choose the ".py" file. Then click the check box to enable.
 
@@ -14,7 +16,6 @@ To use it, you will need to install PIL first. To do this, I have created a pyth
 ![Image description](https://i.imgur.com/pmM5F3D.png)
 
 
-
 That's it.
 
 Onto Usage:
@@ -25,3 +26,5 @@ If you are missing or not using one of those just set it to one of the images yo
 
 If none of your images are showing up, you will need to make sure you have "Packed" them into your current blend file. To do this, head to the "UV Editor" and choose your images there, then under the "Image" tab drop down at the top of that module, you will see "Pack" at the bottom.
 After this, they will now appear in the "RGBA Combiner" menu.
+
+![Image description](https://i.imgur.com/EXiUZfN.png)
