@@ -19,9 +19,10 @@ To use it, you will need to install PIL first. To do this, I have created a pyth
 That's it.
 
 Onto Usage:
-If you head into the "Shader Editor" you should see on the Right hand side an option called "RGBA Combiner". If not, press "N" on your keyboard. 
-After clicking it, you should see an area to choose your images from your project. Choose the images you want to use for Roughness/Occlusion/Metallic/Alpha and then click "Combine Textures". It will create a new image file with the values of those you chose.
-If you are missing or not using one of those just set it to one of the images you ARE using. As it will be taking the values from it anyway, it wont cause any interference.
+1. If you head into the "Shader Editor" you should see on the Right hand side an option called "RGBA Combiner". If not, press "N" on your keyboard. 
+2. After clicking it, you should see an area to choose your images from your project. 
+3. Choose the images you want to use for Roughness/Occlusion/Metallic/Alpha and then click "Combine Textures". It will create a new image file with the values of those you chose.
+4. If you are missing or not using one of those just set it to one of the images you ARE using. As it will be taking the values from it anyway, it wont cause any interference.
 
 
 If none of your images are showing up, you will need to make sure you have "Packed" them into your current blend file. To do this, head to the "UV Editor" and choose your images there, then under the "Image" tab drop down at the top of that module, you will see "Pack" at the bottom.
